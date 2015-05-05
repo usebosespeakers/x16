@@ -49,6 +49,7 @@ select:-moz-focusring {
 	font-size: 18px;
 	background-color: darkgray; 
     font-weight:bold;
+	margin: 0px 10px 0px 10px;
 }
 
 #results{
@@ -56,6 +57,7 @@ select:-moz-focusring {
 	background-color: #eee; 
 	display: none;
     padding-top: 5px;
+	margin: 0px 10px 0px 10px;
 }
 
 #footer{
