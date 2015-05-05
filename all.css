@@ -40,6 +40,11 @@ input:focus {
         outline: 0;
 }
 
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
 #results_title{
 	font-size: 18px;
 	background-color: darkgray; 
