@@ -41,6 +41,7 @@ input:focus {
 }
 
 #results_title{
+	background-color: darkgray; 
         font-weight:bold;
 }
 
