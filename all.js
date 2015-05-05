@@ -47,6 +47,11 @@ $(".main_search_box").on('input propertychange', function(){
       }
 });
 
+//Handle submit/enter for form - do nothing!
+$("#search").submit(function(){
+	return false;
+});
+
 //Initial call to update site list when navigating back to the page that already has .main_search_box populated
 //Check to see if it is empty first!
 
