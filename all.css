@@ -11,7 +11,7 @@
 }
 
 .main_search_box {
-        font-size: 18px;
+        font-size: 20px;
         font-weight:bold;
 }
 
@@ -41,7 +41,7 @@ input:focus {
 }
 
 #results_title{
-	font-size: 16px;
+	font-size: 18px;
 	background-color: darkgray; 
         font-weight:bold;
 }
