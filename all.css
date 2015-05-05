@@ -46,14 +46,11 @@ input:focus {
 }
 
 #results{
-	background-color: #eee; 
-	display: none;
+
         padding-top: 5px;
 }
 
 #footer{
-	background-color: #eee; 
-	display: none;
         font-size: 12px;
         padding-top: 5px;
 }
