@@ -60,8 +60,7 @@ select:-moz-focusring {
 
 #footer{
 	text-align:center;
-	font-family: cursive;
-	background-color: #eee; 
+	font-family: cursive; 
 	display: none;
     font-size: 12px;
     padding-top: 5px;
