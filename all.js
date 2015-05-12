@@ -28,6 +28,7 @@ function update_sites_list(query){
         $("#results").html("");
         $("#results_title").show().html(" Results for: " + query);
         for (var i in sites) {
+				console.log(sites[i].delimeter);
                 sites[i].full_url = sites[i].url1 + query.replace(/ /g, sites[i].delimeter) + sites[i].url2;
                 $("#results").append("<img style='margin-left:1em' src='" + sites[i].icon + "' width='14px' height='14px'>" + " <b><a href='" + sites[i].full_url + "' title='"+ sites[i].full_url +"'>" + sites[i].name + "</a></b></br>");
         }
