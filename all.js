@@ -2,7 +2,7 @@ $(function() {
 
 
 
-function Site(name, url1, url2, category, full_url, icon){
+function Site(name, url1, url2, delimeter, category, full_url, icon){
         this.name = name;
         this.url1 = url1;
         this.url2 = url2;
@@ -14,11 +14,12 @@ function Site(name, url1, url2, category, full_url, icon){
 var ssl_icon = 'https://www.google.com/help/hc/images/chrome_green_lock_details.png'
 
 var sites = [
-        new Site("Amazon", "http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=", "", "Shopping", "", "http://amazon.com/favicon.ico"),
-        new Site("Kickass", "https://kickass.to/usearch/", "/", "Torrents", "", ssl_icon),
-        new Site("The Pirate Bay","https://thepiratebay.se/search/", "", "Torrents", "", "http://thepiratebay.se/favicon.ico"),
-        new Site("Twitter", "https://twitter.com/search?q=", "&src=typd", "Social Media", "", "http://twitter.com/favicon.ico"),
-        new Site("Walmart", "http://www.walmart.com/search/?query=", "", "Shopping", "", "http://walmart.com/favicon.ico"),
+        new Site("Amazon", "http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=", "", "+", ["Shopping"], "", "http://amazon.com/favicon.ico"),
+		new Site("Ebay", "http://search.ebay.com/", "", "-" ["Auction","Shopping"], "", "http://amazon.com/favicon.ico"),
+        new Site("Kickass", "https://kickass.to/usearch/", "/", " ", ["Torrents"], "", ssl_icon),
+        new Site("The Pirate Bay","https://thepiratebay.se/search/", "", " ", "[Torrents]", "", "http://thepiratebay.se/favicon.ico"),
+        new Site("Twitter", "https://twitter.com/search?q=", "&src=typd", " ", ["Social Media"], "", "http://twitter.com/favicon.ico"),
+        new Site("Walmart", "http://www.walmart.com/search/?query=", "", " ", ["Shopping"], "", "http://walmart.com/favicon.ico"),
 ];
 
 
