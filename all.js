@@ -15,7 +15,7 @@ var ssl_icon = 'https://www.google.com/help/hc/images/chrome_green_lock_details.
 
 var sites = [
         new Site("Amazon", "http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=", "", "+", ["Shopping"], "", "http://amazon.com/favicon.ico"),
-		new Site("Ebay", "http://search.ebay.com/", "", "-" ["Auction","Shopping"], "", "http://amazon.com/favicon.ico"),
+		new Site("Ebay", "http://search.ebay.com/", "", "-" ["Auction","Shopping"], "", "http://ebay.com/favicon.ico"),
         new Site("Kickass", "https://kickass.to/usearch/", "/", " ", ["Torrents"], "", ssl_icon),
         new Site("The Pirate Bay","https://thepiratebay.se/search/", "", " ", "[Torrents]", "", "http://thepiratebay.se/favicon.ico"),
         new Site("Twitter", "https://twitter.com/search?q=", "&src=typd", " ", ["Social Media"], "", "http://twitter.com/favicon.ico"),
